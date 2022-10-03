@@ -1,0 +1,79 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+
+.pimg1 {
+  background-image: url(images/image1.png);
+  min-height: 100%;
+}
+
+.pimg2 {
+  background-image: url(images/image2.png);
+  min-height: 400px;
+}
+
+.pimg3 {
+  background-image: url(images/image3.png);
+  min-height: 400px;
+}
+
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ptext {
+  color: #fff;
+  /* background-color: #666; */
+  font-size: 27px;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  /* padding: 20px 50px; */
+}
+
+.textBg {
+  background-color: #313534;
+  color: #fff;
+  padding: 20px;
+}
+
+.section {
+  padding: 50px 80px;
+  text-align: center;
+}
+
+.section-light {
+  background-color: #f4f4f4;
+  color: #666;
+}
+
+.section-dark {
+  background-color: #f4f4f4;
+  color: #666;
+}
